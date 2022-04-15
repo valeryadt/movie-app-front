@@ -16,7 +16,7 @@ export default {
   },
   mounted() {
     axios
-        .get('http://277809.simplecloud.ru/health')
+        .get('http://277809.simplecloud.ru/api/health')
         .then((res) => {
           this.message = res.data.response;
         })
