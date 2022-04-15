@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <ApiTest />
-    <h1>lalalala</h1>
     <hr>
   </div>
 </template>
