@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>{{message}}</h1>
+  <h1 class="text-navy text-center font-sans">{{message}}</h1>
 </div>
 </template>
 
