@@ -1,17 +1,23 @@
 <template>
 <div>
   <h1 class="text-navy text-center font-sans">{{message}}</h1>
+  <ErrorMessage v-if="error"></ErrorMessage>
 </div>
 </template>
 
 <script>
 import axios from 'axios';
+import ErrorMessage from "@/components/ErrorMessage";
 
 export default {
   name: "ApiTest",
+  components: {
+    ErrorMessage,
+  },
   data() {
     return {
-      message: ''
+      message: '',
+      error: false
     }
   },
   mounted() {

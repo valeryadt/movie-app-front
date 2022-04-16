@@ -7,11 +7,10 @@
 
 <script>
 import ApiTest from "@/components/ApiTest";
-
 export default {
   name: 'App',
   components: {
-    ApiTest
+    ApiTest,
   }
 }
 </script>
